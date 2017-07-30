@@ -1,0 +1,168 @@
+/*------------ Fonts Import ------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*--------------------------------------*/
+
+/*===================== Common Typography==============================*/
+* {margin: 0;padding: 0;}
+html, body, div, class, id, section, aside, article, header, footer, p, ul, li {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+html, body, .full-height {height: 100%;}
+.fix {overflow: hidden;}
+
+body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+a, a:hover, a:focus, a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+/*--heading---*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+h3 {font-size: 25px;}
+h4 {font-size: 20px;}
+/*--End heading---*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {padding: 100px 0;}
+.section-padding-80 {padding: 80px 0;}
+
+/*===================== End Common Typography==============================*/
+
+.hero-slider{
+background-image: url(../images/hero-bg.jpg);
+    height: 360px;
+    width: 100%;
+}
+
+
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+.menu {
+}
+.menu ul li a {
+  color: #333;
+  font-weight: 700;
+  padding: 10px 20px;
+  display: block;
+  text-align: right;
+}
+
+
+.box-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 129px;
+}
+.box-content::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #333;
+  z-index: -1;
+  opacity: .7;
+}
+.box-content h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.hero-box-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background: blueviolet;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.big-text{background-color: #ddd;margin-top: 30px;padding: 40px 0}
+
+.big-text h2 span {
+  color: blue;
+}
+.fa-3x{font-size: 3em;}
+
+.single-box-content {
+  padding: 20px;
+}
+.single-box-item {
+  background: #eee;
+}
+.learn-more-btn {
+  background: green;
+  display: block;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.hero-box-btn:hover {
+    background: #fff none repeat scroll 0 0;
+    color: blueviolet;
+}
+.learn-more-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-box-content i.fa {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.recent-wark {
+  margin-top: 90px;
+}
+.recent-wark h2 {
+  padding: 11px;
+}
+.footer-aria{
+    margin-top: 50px;
+    background: black;
+    color: aliceblue;
+   
+}.footer-aria h4{
+    margin-top: 18px;
+    padding: 11px;
+}
+.social-icon{
+    margin-right: -412px;
+    font-size: 43px;
+    /*! float: right; */
+    padding: 20px;
+    /*! margin: -4px; */
+}
